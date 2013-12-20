@@ -1,0 +1,35 @@
+﻿/* Иконки */
+i {display:inline-block; background:url(images/icons.png) no-repeat;)}
+.room {width:19px; height:19px; background-position:-1px 0;}
+.fly-forward {width:23px; height:19px; background-position:-30px 0;}
+.fly-back {width:23px; height:19px; background-position:-63px 0;}
+
+/* Блок с информацией о туре */
+.tour_aviabar {font-size:11px;}
+.tour_aviabar .col-center {padding:5px;}
+.tour_aviabar .leftSide {color:#999;}
+.tour_aviabar .rightSide .grayBlock {padding:30px 35px;}
+.tour_aviabar .tour_title {font-size:18px; margin:0 0 8px;}
+.tour_aviabar .tour_title strong {color:#8f0023; padding:0 8px 0 0;}
+.tour_aviabar dl {font-size:14px; line-height:21px; padding:0 0 10px;}
+.tour_aviabar dt {float: left; width: 40%; clear:both;}
+.tour_aviabar dd {display:table; color:#494949;}
+.tour_aviabar p {padding:0 0 10px;}
+.tour_aviabar .tour_info {padding-bottom:15px; width:100%; margin:0 0 10px;}
+.tour_aviabar .dottedBot {padding:15px 19px 10px; margin:0 0 10px; white-space:nowrap;}
+.tour_aviabar .price {font-size:24px; font-weight:700; color:#99002e; padding:5px 20px; white-space:nowrap;}
+.tour_aviabar .vertLine {width:33.3%; float:left; border-left:1px dotted #999; padding:10px 6px;}
+.tour_aviabar .vertLine:first-child {border:0px;}
+.tour_aviabar .aviability {width:100%;}
+.tour_aviabar i {margin:5px 0 15px;}
+.tour_aviabar .button {margin:15px 0 7px;}
+.tour_aviabar .rightSide  .bottomText {display:table-row-group;}
+.tour_aviabar .rightSide  .bottomText > span {display:block; padding:10px 0 0 15px;}
+.tour_aviabar .popOver {font-weight:600; color:#9b002f; padding:0 0 0 5px;}
+@media (min-width: 480px) {     
+    .tour_aviabar .aviability, .tour_aviabar .tour_info {width:auto; margin:0px;} 
+    .tour_aviabar {margin:0 -15px;}
+}
+@media (min-width: 768px) { 
+    .tour_aviabar .col-center {padding:10px;}
+}
